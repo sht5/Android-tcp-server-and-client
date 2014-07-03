@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+       
+    <ImageButton 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="btnSettingsClicked"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/setting"
+        android:layout_gravity="right"
+        />
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+<!--         <ProgressBar 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:indeterminate="true"/> -->
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter text:"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+        
+        <EditText 
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:id="@+id/txtUserName"
+        />
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnSendClick"
+        android:id="@+id/btnSend"
+        android:textSize="20sp"
+        android:text="Send"
+       
+	/>
+    <EditText 
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text="Messages from server will appear here"
+        android:id="@+id/editTextFromServer"/>
+</LinearLayout>

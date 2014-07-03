@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="discovery_mode_list_entries">
+        <item>Bluetooth</item>
+        <item>Optical</item>
+    </string-array>
+    <string-array name="discovery_mode_list_values">
+        <item>Bluetooth</item>
+        <item>Optical</item>
+        </string-array>
+     <string-array name="sequence_run_times_list_entries">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sequence_run_times_list_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>      
+</resources>
